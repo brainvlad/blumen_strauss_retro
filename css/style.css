@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Noto Serif';
+    src: local('Noto Serif'), local('NotoSerif'), url('webfonts/notoserif.woff2') format('woff2'), url('webfonts/notoserif.woff') format('woff'), url('webfonts/notoserif.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Noto Serif';
+    src: local('Noto Serif Italic'), local('NotoSerif-Italic'), url('webfonts/notoserifitalic.woff2') format('woff2'), url('webfonts/notoserifitalic.woff') format('woff'), url('webfonts/notoserifitalic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Noto Serif';
+    src: local('Noto Serif Bold'), local('NotoSerif-Bold'), url('webfonts/notoserifbold.woff2') format('woff2'), url('webfonts/notoserifbold.woff') format('woff'), url('webfonts/notoserifbold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Noto Serif';
+    src: local('Noto Serif Bold Italic'), local('NotoSerif-BoldItalic'), url('webfonts/notoserifbolditalic.woff2') format('woff2'), url('webfonts/notoserifbolditalic.woff') format('woff'), url('webfonts/notoserifbolditalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style-type: none;
+}
+
+body {
+    font-family: 'Noto Serif', serif;
+    color: #333333;
+}
+
+.container {
+    max-width: 1380px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    min-height: 100vh;
+}
+
+.wrap-content {
+    min-height: 70vh;
+}
