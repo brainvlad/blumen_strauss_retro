@@ -249,3 +249,370 @@ main {
 .footer__tel:hover {
     border-bottom: 1px solid #eeeeee;
 }
+
+/*section title*/
+
+.section__title {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.section__title-line {
+    height: 3px;
+    width: 350px;
+    background-color: #333333;
+}
+
+.section__title-point {
+    margin: 0 20px;
+}
+
+.section__title-text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 52px;
+    color: #C73F36;
+    margin: 0 10px;
+}
+
+/*advantage*/
+
+.advantage {
+
+}
+
+.advantage__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.advantage__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    padding: 20px;
+}
+
+.advantage__item-number {
+    padding: 20px 0;
+}
+
+/*popular goods*/
+
+.popular-goods {
+    padding-bottom: 50px;
+}
+
+.popular-goods__goods {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.popular-goods__content {
+    width: 90%;
+    margin: 0 auto;
+
+    background-color: #103F3E;
+    border: 10px solid #80B2A7;
+    border-radius: 10px;
+}
+
+.popular-goods__item {
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 27px 0 64px 0;
+}
+
+.popular-goods__photo {
+    width: 100%;
+    height: 270px;
+    border-radius: 10px;
+    border: 3px solid #F2E8C5;
+}
+
+.popular-goods__photo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.popular-goods__name {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 17px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.popular-goods__button {
+    cursor: pointer;
+    width: 122px;
+    height: 38px;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    background: url(../img/icons/button.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.popular-goods__slider-menu {
+    width: 1188px;
+    height: 70px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    background: url(../img/index/popular-slides.png);
+}
+
+.popular-goods__slider-menu-prev,
+.popular-goods__slider-menu-next {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.popular-goods__slider-menu-prev {
+    padding-right: 50px;
+}
+
+.popular-goods__slider-menu-next {
+    padding-left: 50px;
+}
+
+.popular-goods__slider-menu-nums {
+    display: flex;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+
+    color: #C32E28;
+}
+
+.popular-goods__slider-menu-nums .popular-goods__slider-menu-active {
+    transform: scale(1.5);
+}
+
+.popular-goods__slider-menu-nums > div {
+    padding: 0 30px;
+    cursor: pointer;
+}
+
+/*discount form*/
+
+.discount {
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+}
+
+.discount-form__button {
+    cursor: pointer;
+    width: 155px;
+    height: 48px;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    background: url(../img/icons/button.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+    margin: 80px auto 0 auto;
+}
+
+.discount-form {
+    margin: auto;
+    width: 536px;
+    height: 503px;
+    background: url(../img/index/bg-form.png);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+.discount-form input {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 34px;
+    color: rgba(104, 44, 0, 0.64);
+
+    outline: none;
+    border: none;
+    background: transparent;
+    margin-top: 92px;
+    padding-left: 20px;
+}
+
+.discount-form__title {
+    transform: scale(0.8);
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    text-align: center;
+
+    color: #C32E28;
+    margin-top: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*reviews*/
+
+.reviews {
+
+}
+
+.reviews__item {
+    padding: 0 100px;
+    width: 908px;
+    height: 198px;
+    background: url(../img/index/reviews-bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.reviews__photo {
+    width: 118px;
+    height: 118px;
+    border-radius: 10px;
+    border: 2px solid #F2E8C5;
+}
+
+.reviews__photo img {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.reviews__text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #103F3E;
+
+    width: 520px;
+    height: 118px;
+    background-color: #F2E8C5;
+    border-radius: 10px;
+}
+
+.reviews__slider-menu {
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.reviews__slider-menu__items {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.reviews__slider-menu__round {
+    width: 22px;
+    height: 22px;
+    border: 1px solid #103F3E;
+    border-radius: 50%;
+}
+
+.menu__round-current {
+    background-color: #103F3E;
+}
+
+/*instagram-section*/
+
+.instagram-section {
+    padding-bottom: 100px;
+}
+
+.instagram__account {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 52px;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #103F3E;
+}
+
+
+.instagram-section__content {
+    width: 840px;
+    height: 840px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 50px auto 0 auto;
+
+    background: #80B2A7;
+    border: 8px solid #103F3E;
+    border-radius: 20px;
+
+}
+
+.instagram-section__item {
+    height: 360px;
+    width: 360px;
+    cursor: pointer;
+    border: 2px solid #F2E8C5;
+    border-radius: 10px;
+}
+
+.instagram-section__item > img {
+    border: 2px solid #F2E8C5;
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
